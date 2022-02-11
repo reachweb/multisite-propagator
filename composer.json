@@ -1,0 +1,19 @@
+{
+    "name": "reachweb/multisite-propagator",
+    "autoload": {
+        "psr-4": {
+            "Reach\\MultisitePropagator\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Multisite Propagator",
+            "description": "Multisite Propagator addon"
+        },
+        "laravel": {
+            "providers": [
+                "Reach\\MultisitePropagator\\ServiceProvider"
+            ]
+        }
+    }
+}
